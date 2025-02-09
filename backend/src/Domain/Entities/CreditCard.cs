@@ -12,7 +12,13 @@ public class CreditCard
 
     public required string CardNumber { get; set; }
 
+    public required string BankName { get; set; }
+
     public decimal CreditLimit { get; set; }
+
+    public decimal CurrentDebt { get; set; }
+
+    public decimal LastStatementAmount { get; set; }
 
     public DateTimeOffset ExpirationDate { get; set; }
 
@@ -21,4 +27,20 @@ public class CreditCard
     public DateTimeOffset CreatedAt { get; set; }
 
     public DateTimeOffset LastModifiedAt { get; set; }
+
+    public void Payment(decimal amount)
+    {
+        LastModifiedAt = DateTimeOffset.UtcNow;
+
+        LastStatementAmount -= amount;
+        CreditLimit += amount;
+    }
+
+    public void Debit(decimal amount)
+    {
+        LastModifiedAt = DateTimeOffset.UtcNow;
+
+        CreditLimit -= amount;
+        CurrentDebt += amount;
+    }
 }
