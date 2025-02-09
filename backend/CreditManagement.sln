@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditService.WebApi", "src\WebApi\CreditService.WebApi.csproj", "{6DD50CC6-D821-4714-981E-3562D311A32C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditService.Domain", "src\Domain\CreditService.Domain.csproj", "{6F11D1AE-D199-4788-818E-5B2CD1D77E57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditService.Application", "src\Application\CreditService.Application.csproj", "{D92D221B-61D5-40C8-B2A3-CA4989BD1AA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditService.Infrastructure", "src\Infrastructure\CreditService.Infrastructure.csproj", "{19704E23-AABE-44E9-83C6-BD7F21307574}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DD50CC6-D821-4714-981E-3562D311A32C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD50CC6-D821-4714-981E-3562D311A32C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DD50CC6-D821-4714-981E-3562D311A32C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DD50CC6-D821-4714-981E-3562D311A32C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F11D1AE-D199-4788-818E-5B2CD1D77E57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F11D1AE-D199-4788-818E-5B2CD1D77E57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F11D1AE-D199-4788-818E-5B2CD1D77E57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F11D1AE-D199-4788-818E-5B2CD1D77E57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D92D221B-61D5-40C8-B2A3-CA4989BD1AA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D92D221B-61D5-40C8-B2A3-CA4989BD1AA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D92D221B-61D5-40C8-B2A3-CA4989BD1AA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D92D221B-61D5-40C8-B2A3-CA4989BD1AA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19704E23-AABE-44E9-83C6-BD7F21307574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19704E23-AABE-44E9-83C6-BD7F21307574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19704E23-AABE-44E9-83C6-BD7F21307574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19704E23-AABE-44E9-83C6-BD7F21307574}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
